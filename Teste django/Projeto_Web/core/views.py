@@ -6,3 +6,10 @@ def index(request):
 
 def login(request):
     return render(request, 'login.html')
+
+def esqueci(request):
+    return render(request, 'esqueci.html')
+
+def criar(request):
+    return render(request, 'criar.html')
+
